@@ -1,0 +1,17 @@
+Solve Q1 of HW4 from [JE-2018-374] (see link). Marks distribution 8+3+5=15. Explain time complexity of all your algorithms but there is no need to prove correctness.
+For part-(c), design a recursive algorithm and discuss its time complexity.
+
+Take lots of examples to understand who are targets of whom and who are not targets.
+The linked hw4.pdf contains a solved exercise -- read it carefully to understand how to write an answer. If we cannot make sense of what you wrote, we will assume that what you wrote is incorrect. In other words, we only grade what is written and not what you thought.
+Do not post on Stackoverflow, Stackexchange, Chegg, Coursehero, and similar shady websites.
+
+Use the hw1.tex template to write your solution -- replace HW1 by HW2. Each subpart should finish on its own page -- do not use additional pages.
+
+Hints:
+1. It is worth trying a divide-and-conquer (D&C) algorithm when you see O(n log n) and the current topic is recursive algorithm. And good way to start is divide into (roughly) two halves. (This not be the final approach, but this is definitely worth trying, especially, after seeing O(n log n)). In a D&C approach, you ask the following: suppose SL is the solution to a problem on the left half LH, and RL is the solution to the problem on the right half RH, could you obtain the solution to LH+RH by processing SL and SR?
+
+2. The non-targets in this problem are related to something you did in Tutorial 1.
+
+3. For the O(n) algorithm in part (c) you can assume that you start with a linked list instead of an array. This "assumption" is not needed since constructing a linked list from an array anyway takes O(n). A Omega(n) algorithm is easy and follows from (b).
+
+Update: HW2.tex posted. It requires the additional files that were provided with HW1.
